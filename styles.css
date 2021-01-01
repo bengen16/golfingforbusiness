@@ -1,7 +1,7 @@
 body {
   font-family: Times New Roman;
   padding: 20px;
-  background-image: url(pool.jpg);
+  background: #FFF7E3;
 }
 .center{display: block;
   margin-left: auto;
