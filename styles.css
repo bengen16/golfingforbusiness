@@ -1,14 +1,17 @@
 body {
-  font-family: Times New Roman;
+  font-family: andale mono;
   padding: 20px;
-  background: #FFF7E3;
+  background: white;
 }
+
+.menu{color:black;}
+.menuitem{background: #FBB03B;font-family: andale mono;}
+.menuitem > a {color:blue;}
 .center{display: block;
   margin-left: auto;
   margin-right: auto;
   width: 25%;}
-.sidenav{ font-family: Andale Mono; color: white;background: purple;}
-.sidenav > a{color:white;}
+
 /* Header/Blog Title */
 .header {
   padding: 30px;
