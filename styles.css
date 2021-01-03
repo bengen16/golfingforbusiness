@@ -1,16 +1,69 @@
 body {
-  font-family: andale mono;
+  font-family: times new roman;
   padding: 20px;
-  background: white;
+  background: beige;
+}
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+.column {
+  float: left;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
 }
 
+.left, .right {
+  width: 10%;
+}
+
+.middle {
+  width: 70%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+hr.solid {
+  border-top: 3px solid black;
+}
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+.left, .right {
+  width: 15%;
+}
+
+.middle {
+  width: 70%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 .menu{color:black;}
-.menuitem{background: #FBB03B;font-family: andale mono;}
+.menuitem{;font-family: andale mono;}
 .menuitem > a {color:blue;}
 .center{display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 25%;}
+  width: 20%;}
 
 /* Header/Blog Title */
 .header {
@@ -59,7 +112,7 @@ body {
 .footer {
   padding: 20px;
   text-align: center;
-  background: #ddd;
+  background: ;
   margin-top: 20px;
 }
 
