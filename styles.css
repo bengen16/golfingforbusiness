@@ -1,12 +1,29 @@
 body {
   font-family: times new roman;
   padding: 20px;
-  background: beige;
+  background: #FFF7E3;
 }
 @media screen and (max-width: 600px) {
   .column {
     width: 100%;
   }
+}
+.vertical-menu a {
+  background-color: #FBB03B;
+  border-style:solid black;
+  color: black;
+  display: block;
+  padding: 6px;
+  text-decoration: underline;
+}
+
+.vertical-menu a:hover {
+  background-color: #ccc;
+}
+
+.vertical-menu a.active {
+  background-color: #513383;
+  color: white;
 }
 .column {
   float: left;
@@ -57,9 +74,7 @@ hr.solid {
   display: table;
   clear: both;
 }
-.menu{color:black;}
-.menuitem{;font-family: andale mono;}
-.menuitem > a {color:blue;}
+
 .center{display: block;
   margin-left: auto;
   margin-right: auto;
@@ -97,6 +112,7 @@ hr.solid {
 /* Add a card effect for articles */
 .card {
   background-color: white;
+  border-style:outset;
   padding: 20px;
   margin-top: 20px;
 }
