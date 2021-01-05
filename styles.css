@@ -1,7 +1,10 @@
+
 body {
   font-family: times new roman;
-  padding: 20px;
+  margin: 20px;
   background: #FFF7E3;
+
+
 }
 @media screen and (max-width: 600px) {
   .column {
@@ -9,16 +12,16 @@ body {
   }
 }
 .vertical-menu a {
-  background-color: #FBB03B;
+  background-color: lightgrey;
   border-style:solid black;
-  color: black;
+  color: #513383;
   display: block;
   padding: 6px;
   text-decoration: underline;
 }
 
-.vertical-menu a:hover {
-  background-color: #ccc;
+.vertical-menu > a:hover {
+  background-color: #fff;
 }
 
 .vertical-menu a.active {
