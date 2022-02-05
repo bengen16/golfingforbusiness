@@ -52,6 +52,67 @@
   </div>
 </div>
 
+<div>
+	
+	<style>
+
+form {
+
+
+}
+
+.container{
+  padding: 20px;
+  background-color: lightgrey;
+  border-style:outset;
+  border-color: none;
+}
+
+input[type=text], input[type=submit] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+
+input[type=submit] {
+  color: white;
+  border: none;
+  background-color: #513383;
+  font-family: times new roman;
+  font-weight: bold;
+}
+
+input[type=submit]:hover {
+  background-color: #fff;
+  color:black;
+}
+</style>
+<body>
+
+
+<form action="/action_page.php">
+  <div class="container" style="margin-top: 20px;">
+    <h2>Subscribe to our Newsletter</h2>
+  </div>
+
+  <div class="container">
+    <input type="text" placeholder="Name" name="name" required>
+    <input type="text" placeholder="Email address" name="mail" required>
+  </div>
+
+  <div class="container">
+    <input type="submit" value="Subscribe">
+  </div>
+</form>
+
+</body>
+</div>
+
+
 <div class="footer">
   <p>Get In Touch With Us</p>
   <img src="assets/mailgif.gif"></img>
